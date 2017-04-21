@@ -39,6 +39,17 @@ The Testset includes:
 
 I will utilise part of the trainset to do my validations before evaluating the performances with the test set.
 
+## Dependencies
+libraries used in this project:
+- numpy
+- pandas
+- IPython
+- matplotlib
+- seaborn
+- scipy
+- sklearn
+- imblearn
+
 ## Solution Statement
 This dataset has very high dimensionality represented by the time series of the FLUX measurements,
 I will first analyse the data looking for outliers that can be due to noise or sensors anomalies, I will approach the detection using Tukey's Method for identifying outliers, where an outlier step is calculated as 1.5 times the interquartile range (IQR).
